@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.DetailActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_DETAIL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorDark"
+            app:title="Detalji Nekretnine"
+            app:titleTextColor="@color/colorRED" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout_DETAIL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/detail_naziv_nekretnine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/detail_opis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_naziv_nekretnine"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/detail_adresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_opis"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/detail_broj_telefona"
+                android:autoLink="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_adresa" />
+
+            <TextView
+                android:id="@+id/detail_kvadratura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_broj_telefona" />
+
+            <TextView
+                android:id="@+id/detail_broj_sobe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_kvadratura" />
+
+            <TextView
+                android:id="@+id/detail_cena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_broj_sobe" />
+
+            <ImageButton
+                android:id="@+id/button_image_NOTIFY"
+                android:src="@drawable/reservation"
+                android:layout_below="@id/detail_cena"
+                android:scaleType="centerInside"
+                android:layout_centerInParent="true"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+            <GridView
+                android:id="@+id/detail_LIST_IMAGE_VIEW"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_below="@id/button_image_NOTIFY"
+                android:columnWidth="80dp"
+                android:numColumns="auto_fit"
+                android:verticalSpacing="4dp"
+                android:horizontalSpacing="4dp"
+                android:stretchMode="columnWidth"
+                android:gravity="center"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/drawer_pane_DETAIL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start">
+
+            <ListView
+                android:id="@+id/nav_list_DETAIL"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/colorDark"
+                android:choiceMode="singleChoice"
+                android:gravity="start" />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout>

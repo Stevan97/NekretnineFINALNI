@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">NekretnineFINALNI</string>
+    <string name="open_drawer">Drawer Opened</string>
+    <string name="close_drawer">Drawer Closed</string>
+    <string name="aplikacija_o_glumcima_u_ovoj_aplikaciji_mozete_videti_listu_glumaca_njihove_podatke_i_filmove_u_kojima_je_glumio_milose_samo_jedan_podsetnik_naravno_ako_je_aplikacija_dobra_za_plus_sto_ste_rekli_da_mozete_dati">Aplikacija o Nekretninama, u ovoj aplikaciji mozete videtu listu nekretnina, cene, poziv na broj i to. Podsetnik blabla.</string>
+    <string name="nije_dovoljno_dobro_p">OK ZATVORI DIJALOG</string>
+    <string name="ovaj_dialog_ce_se_prikazati_samo_prvi_i_jedini_put_kada_je_aplikacija_instalirana_i_pokrenuta_osim_u_slucaju_reinstalacije">Ovaj dijalog ce se prikazati samo prvi i JEDINI put kada je aplikacija instalirana i pokrenuta, osim u slucaju reinstalacije pokazace se opet.</string>
+    <string name="dodaj_nekretninu">Dodaj Nekretninu</string>
+    <string name="naziv_nekretnine">Naziv Nekretnine</string>
+    <string name="opis_nekretnine">Opis Nekretnine</string>
+    <string name="adresa_nekretnine">Adresa Nekretnine</string>
+    <string name="broj_telefona_duzi_od_5">Broj Telefona: duzi od 5!</string>
+    <string name="kvadratura_nekretnine">Kvadratura Nekretnine</string>
+    <string name="broj_sobe">Broj Sobe</string>
+    <string name="cena_nekretnine">Cena Nekretnine</string>
+    <string name="otvori_galeriju_za_sliku">OTVORI GALERIJU ZA SLIKU</string>
+    <string name="potvrdi">Potvrdi</string>
+    <string name="odustani">Odustani</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="nov_naziv_nekretnine">Nov Naziv Nekretnine</string>
+    <string name="nov_opis_nekretnine">Nov Opis Nekretnine</string>
+    <string name="nova_adresa_nekretnine">Nova Adresa Nekretnine</string>
+    <string name="nov_broj_telefona_duzi_od_5">Nov broj Telefona: duzi od 5!</string>
+    <string name="nova_kvadratura_nekretnine">Nova Kvadratura Nekretnine</string>
+    <string name="nov_broj_sobe">Nov broj Sobe</string>
+    <string name="nova_cena_nekretnine">Nova Cena Nekretnine</string>
+    <string name="izaberite_sliku_za_izmenu">Izaberite sliku za IZMENU</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="kliknite_da_otvorite_galeriju">Kliknite da otvorite GALERIJU</string>
+</resources>

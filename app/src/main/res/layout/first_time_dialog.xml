@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorDark"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/first_time_TX"
+        android:text="@string/aplikacija_o_glumcima_u_ovoj_aplikaciji_mozete_videti_listu_glumaca_njihove_podatke_i_filmove_u_kojima_je_glumio_milose_samo_jedan_podsetnik_naravno_ako_je_aplikacija_dobra_za_plus_sto_ste_rekli_da_mozete_dati"
+        android:textColor="@color/colorRED"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/first_time_button_OK"
+        android:textColor="@color/colorRED"
+        android:text="@string/nije_dovoljno_dobro_p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/ovaj_dialog_ce_se_prikazati_samo_prvi_i_jedini_put_kada_je_aplikacija_instalirana_i_pokrenuta_osim_u_slucaju_reinstalacije"
+            android:textSize="20sp"
+            android:textColor="@color/colorRED"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

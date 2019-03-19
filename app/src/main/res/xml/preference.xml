@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Dozvolite Toast/Notification poruke"
+        android:key="settings_toast">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:title="Obavestenja Toast Porukama"
+            android:summary="Ako zelite obavestenje preko Toasta"
+            android:key="toast"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="Obavestenje Notifikacijom"
+            android:summary="Ako zelite obavestenje preko Notifikacije"
+            android:key="notify"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

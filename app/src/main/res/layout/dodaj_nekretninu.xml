@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDark"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/dodaj_nekretninu_naziv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/naziv_nekretnine"
+        android:textColor="@color/colorRED"
+        android:textColorHint="@color/colorRED" />
+
+    <EditText
+        android:id="@+id/dodaj_nekretninu_opis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/opis_nekretnine"
+        android:textColor="@color/colorRED"
+        android:textColorHint="@color/colorRED" />
+
+    <EditText
+        android:id="@+id/dodaj_nekretninu_adresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adresa_nekretnine"
+        android:textColor="@color/colorRED"
+        android:textColorHint="@color/colorRED" />
+
+    <EditText
+        android:id="@+id/dodaj_nekretninu_brojTelefona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/broj_telefona_duzi_od_5"
+        android:inputType="number"
+        android:textColor="@color/colorRED"
+        android:textColorHint="@color/colorRED" />
+
+    <EditText
+        android:id="@+id/dodaj_nekretninu_kvadratura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/kvadratura_nekretnine"
+        android:inputType="number|numberDecimal"
+        android:textColor="@color/colorRED"
+        android:textColorHint="@color/colorRED" />
+
+    <EditText
+        android:id="@+id/dodaj_nekretninu_brojSobe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/broj_sobe"
+        android:inputType="number"
+        android:textColor="@color/colorRED"
+        android:textColorHint="@color/colorRED" />
+
+    <EditText
+        android:id="@+id/dodaj_nekretninu_cena"
+        android:layout_width="match_parent"
+        android:inputType="number|numberDecimal"
+        android:layout_height="wrap_content"
+        android:hint="@string/cena_nekretnine"
+        android:textColor="@color/colorRED"
+        android:textColorHint="@color/colorRED" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/dodaj_nekretninu_preview"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <Button
+            android:id="@+id/dodaj_nekretninu_button_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/dodaj_nekretninu_preview"
+            android:text="@string/otvori_galeriju_za_sliku"
+            android:textColor="@color/colorRED" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/dodaj_nekretninu_button_confirm"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/potvrdi"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/dodaj_nekretninu_button_cancel"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/odustani"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
